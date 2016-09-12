@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+	
+	margin: 0;
+	padding: 0;
+	text-align:center;
+	height: 650px;
+	overflow: hidden;
+	position: center;
+	
+}
+	
+#principal{
+
+	background-image: url(imagens/img2.png);
+	background-repeat: no-repeat;
+	height: 650px;
+	width: 366px;
+	margin-left: 350px;
+	
+}
+
+#conteudo{
+	
+	height: 400px;
+	width: 800px;
+	/*imagem do login eh aki*/
+	margin-left: 650px;
+	overflow: hidden;
+	float: left;
+}

@@ -1,0 +1,106 @@
+<html>
+<!--
+programa: Index.php
+função: acessar ao menu do sistema
+data: 19/03/2013
+autor: Anderson
+Docente: Alexandre Faccioni Barcellos
+-->
+	<head>
+	
+		<title>
+		
+			Login
+		
+		</title>
+
+		<link rel="stylesheet" type="text/css" href="index.css"></link>
+	
+		<script type="text/javascript" src="javascript/ValidaIndex.js"></script>
+	
+	</head>
+	
+	<body>
+		
+		<div id="principal">
+		
+			<div id="conteudo">
+			
+				<div id="login">
+				
+					<form name="Index" action="Index.php" method="POST" onSubmit="return ValidaIndex()">
+					
+						<table border="0" cellspacing="5">
+						
+							<tr>
+							
+								<th colspan="2">
+								
+									SMA<br>
+									Sistema de movimenta&ccedil;&atilde;o de armas
+									
+								</th>
+							
+							</tr>
+							
+							<tr>
+							
+								<td colspan="2" align="center">
+								
+									<font color="gray" size="2"><b>Campos com asterisco (<font color="red">*</font>) s&atilde;o obrigat&oacute;rios</font>
+									
+								</td>
+								
+							</tr>
+							
+							<tr>
+								
+								<td>Usu&aacute;rio<font color="red"> *</font></td>
+								
+								<td>
+								
+									<input name="usuarioArmeiroMilitar" title="Informe o nome de usu&aacute;rio" type="text" maxlength="11" size="20"></input>
+									
+								</td>
+								
+							</tr>
+							
+							<tr>
+								
+								<td>Senha<font color="red"> *</font></td>
+								
+								<td height="22"><input type="password" name="senhaArmeiroMilitar" title="Informe a senha" maxlength="11" size="20" /></td>
+							
+							</tr>
+							
+							<tr>
+							
+								<td height="19">
+									<input type="reset" value="Limpar" />
+								</td>
+								
+								<td align='right' height="19">
+									
+									<a href="Menu.php">
+									
+										<input type="submit" value="Entrar" />
+									
+									</a>
+								
+								</td>
+							
+							</tr>
+							
+						</table>
+					
+					</form>
+				
+				</div>
+			
+			</div>
+		
+		</div>
+		
+	</body>
+
+</html>
